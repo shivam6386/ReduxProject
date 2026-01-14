@@ -12,11 +12,11 @@ import { createSlice } from "@reduxjs/toolkit";
 
         },
         Reset:(state)=>{
-            state.count=state.count=0
+            state.count=0
         }
 
     }
 
 })
 export const {Increment,Decrement,Reset}=reactSlicer.actions
-export default reactSlicer .reducer
+export default reactSlicer.reducer
